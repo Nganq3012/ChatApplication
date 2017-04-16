@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wruniversity/chatapplication/Youtube/Config.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wruniversity/chatapplication/Youtube/SearchActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wruniversity/chatapplication/Youtube/Video.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wruniversity/chatapplication/Youtube/VideoAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wruniversity/chatapplication/ui/widget/CustomLightboxActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/card_background_white.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_video.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/apikeys.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/YouTubeAndroidPlayerApi.jar" charset="ISO-8859-1" />
+    <file url="PROJECT" charset="ISO-8859-1" />
+  </component>
+</project>

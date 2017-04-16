@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:emojicon="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <com.wruniversity.chatapplication.ui.widget.CircleImageView
+            android:id="@+id/Avatar2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <ImageView
+            android:id="@+id/txtImage"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Sender2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Avatar2"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtImage"
+            android:layout_marginLeft="144dp"
+            android:layout_marginStart="144dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/r1">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtmesage"
+            android:layout_marginLeft="124dp"
+            android:layout_marginStart="124dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/Sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Avatar"
+            android:text="TextView" />
+
+        <com.wruniversity.chatapplication.ui.widget.CircleImageView
+            android:id="@+id/Avatar"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/txtmesage"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="88dp"
+            android:layout_marginRight="88dp"
+            android:layout_marginTop="11dp"
+            android:layout_toLeftOf="@+id/Avatar"
+            android:layout_toStartOf="@+id/Avatar"
+            android:background="@drawable/reeeceive_mes"
+            android:paddingBottom="@dimen/pad_20dp"
+            android:paddingLeft="@dimen/pad_20dp"
+            android:paddingRight="@dimen/pad_20dp"
+            android:paddingTop="@dimen/pad_10dp"
+            android:text="TextView"
+            android:textSize="@dimen/txt_16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/r3">
+
+
+        <!--            app:srcCompat="@drawable/avatar_circlr"
+                    android:src="@drawable/ic_email"-->
+        <TextView
+            android:id="@+id/Sender3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/Avatar3"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/date3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Avatar3"
+            android:layout_marginLeft="110dp"
+            android:layout_marginStart="110dp"
+            android:text="TextView" />
+
+        <com.wruniversity.chatapplication.ui.widget.CircleImageView
+            android:id="@+id/Avatar3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+         <com.rockerhieu.emojicon.EmojiconTextView
+                    android:id="@+id/emojiconTextView"
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/reeeceive_mes"
+                    android:paddingBottom="@dimen/pad_20dp"
+                    android:paddingLeft="@dimen/pad_20dp"
+                    android:paddingRight="@dimen/pad_20dp"
+                    android:paddingTop="@dimen/pad_10dp"
+                    emojicon:emojiconSize="50sp"
+                    android:text="Hello Emojis!"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="#000000"
+                     />
+    </RelativeLayout>
+</RelativeLayout>

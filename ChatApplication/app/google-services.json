@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "765057018065",
+    "firebase_url": "https://chatapplication-70488.firebaseio.com",
+    "project_id": "chatapplication-70488",
+    "storage_bucket": "chatapplication-70488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765057018065:android:25cf3c70a56dc4aa",
+        "android_client_info": {
+          "package_name": "com.wruniversity.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765057018065-hs3p3m2jij045r96aa63hu6ql3inor0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wruniversity.chatapplication",
+            "certificate_hash": "a0e905c7e9dd840ff84d4077cd04a6a98d252d1a"
+          }
+        },
+        {
+          "client_id": "765057018065-i49mdggh81hf4d5lj4ngnrqo8b8nn2tm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbrSSOT69dsX-MO3L8Y75q3WVX_zJKLU8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765057018065-i49mdggh81hf4d5lj4ngnrqo8b8nn2tm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

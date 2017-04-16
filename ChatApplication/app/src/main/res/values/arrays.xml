@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_spinner">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="color">
+        <item>Color Red</item>
+        <item>Color Green</item>
+        <item>Color Accent</item>
+        <item>Color Black</item>
+    </string-array>
+    <string-array name="label_color">
+        <item>Color Red</item>
+        <item>Color Green</item>
+        <item>Color Pink</item>
+        <item>Color Black</item>
+        <item>Color Purple</item>
+    </string-array>
+
+    <string-array name="value_color">
+        <item>#FF5722</item>
+        <item>#76FF03</item>
+        <item>#F50057</item>
+        <item>#212121</item>
+        <item>#7C4DFF</item>
+    </string-array>
+
+</resources>

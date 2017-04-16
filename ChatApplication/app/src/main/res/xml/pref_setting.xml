@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="#7C4DFF"
+        android:entries="@array/label_color"
+        android:entryValues="@array/value_color"
+        android:key="@string/pref_color_key"
+        android:title="Select colors want changes"
+        android:summary=" color include  Red ,Green ,Pink, Black ,Purple"/>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pref_online_key"
+        android:summaryOff="@string/pref_show_false"
+        android:summaryOn="@string/pref_show_true"
+        android:title="@string/pref_show_state_online_label"
+        android:summary="state online include 2 state :Online , Offline"
+        />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_size_default"
+        android:key="@string/pref_size_key"
+        android:title="@string/pref_size_label"
+        android:summary=" size include 3 size :small , normal, bigger"/>
+</PreferenceScreen>

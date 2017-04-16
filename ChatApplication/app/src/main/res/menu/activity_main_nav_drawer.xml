@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Chat with friends">
+        <menu>
+            <item
+                android:id="@+id/nav_user"
+                android:icon="@drawable/speech_bubble"
+                android:title="Chat" />
+
+        </menu>
+    </item>
+
+    <item android:title="Entertainment">
+        <menu>
+            <item
+                android:id="@+id/watch_youtube"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Youtube" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Share app" />
+        </menu>
+    </item>
+    <item android:title="Sign out">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Sign out" />
+        </menu>
+    </item>
+</menu>

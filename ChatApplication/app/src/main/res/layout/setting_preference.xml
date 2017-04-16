@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--hide state online -->
+    <CheckBoxPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="pref_sync"
+        android:title="Hide state online" />
+    <!-- android:summary="@string/pref_sync_summ"
+     android:defaultValue="true" -->
+    <!-- List color Change background app-->
+
+
+    <ListPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="Blue"
+        android:dialogTitle="Select color"
+        android:entries="@array/color"
+        android:entryValues="@array/value_color"
+        android:key="Color"
+        android:title="Color in application" />
+
+
+    <!--Change size text-->
+    <EditTextPreference
+        android:defaultValue="@string/pref_size_default"
+        android:key="@string/pref_size_key"
+        android:title="@string/pref_size_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</PreferenceScreen>

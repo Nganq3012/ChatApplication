@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Chat Application</string>
+    <string name="btn_link_to_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="sign_in">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_out">Sign out</string>
+    <string name="send_button_label">Send</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Setting">Settings</string>
+    <string name="hide_online_state" />
+    <string name="API_key">97e3e31dc9ef4c7d91a5eaf6e145bb39</string>
+    <string name="Client_secret">db8fdae5-e095-4113-9c71-0a61caa15cc9</string>
+    <string name="facebook_app_id">154563738402157</string>
+
+    <string name="hint_username">User name</string>
+    <string name="textview">TextView</string>
+    <string name="date">date</string>
+    <string name="my_message">my message</string>
+
+    <string name="pref_color_key" translatable="false">color</string>
+    <string name="pref_online_key" translatable="false">color</string>
+    <string name="pref_show_state_online_label">Hide Online</string>
+
+    <!-- Default for size preference -->
+    <string name="pref_size_default" translatable="false">18</string>
+    <!-- Label for the size preference -->
+    <string name="pref_size_label">Font size </string>
+
+    <!-- Key name for storing size in SharedPreferences -->
+    <string name="pref_size_key" translatable="false">size</string>
+
+    <!-- Summary for Checkboxes -->
+    <string name="pref_show_true">Shown</string>
+    <string name="pref_show_false">Hidden</string>
+    <string name="title_activity_main_nav">MainNavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Login</string>
+    <string name="api_google">AIzaSyAbrSSOT69dsX-MO3L8Y75q3WVX_zJKLU8</string>
+</resources>

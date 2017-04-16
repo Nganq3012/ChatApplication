@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.hanks.htextview.rainbow.RainbowTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Userchat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/user_chat1"
+    android:drawablePadding="@dimen/pad_10dp"
+    android:drawableRight="@drawable/ic_online"
+    android:orientation="horizontal"
+    android:padding="@dimen/pad_10dp"
+    android:text="TextView"
+    android:textSize="@dimen/txt_18sp"
+    app:colorSpace="150dp"
+    app:colorSpeed="4dp" />
